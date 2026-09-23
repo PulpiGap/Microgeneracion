@@ -1,0 +1,1366 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tabla de Proyectos de Microgeneración</title>
+
+
+    <!-- ===============================================================
+         DATATABLES
+         =============================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.datatables.net/2.3.3/css/dataTables.dataTables.min.css"
+    >
+
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f5f5f5;
+        }
+
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+
+        .contenedor {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+        }
+
+
+        #tabla_proyectos {
+            width: 100% !important;
+            font-size: 13px;
+        }
+
+
+        #tabla_proyectos th {
+            white-space: nowrap;
+        }
+
+
+        #tabla_proyectos td {
+            white-space: nowrap;
+        }
+
+
+        .resumen {
+            margin-bottom: 15px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <h1>
+        Proyectos de Microgeneración
+    </h1>
+
+
+    <div class="resumen">
+
+        Total de proyectos:
+        105
+
+    </div>
+
+
+    <div class="contenedor">
+
+        <table class="dataframe" id="tabla_proyectos">
+  <thead>
+    <tr style="text-align: right;">
+      <th>EMPRESA</th>
+      <th>DEMANDA</th>
+      <th>POTENCIA PROPUESTA</th>
+      <th>CAPEX</th>
+      <th>ESTADO DEL PROYECTO</th>
+      <th>ETAPA DEL PROYECTO</th>
+      <th>EJECUTIVO RESPONSABLE</th>
+      <th>UNIDAD DE GENERACIÓN</th>
+      <th>PROBABILIDAD DE CIERRE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MARINA DE GUERRA DEL PERU (SIMA)</td>
+      <td>2048 KW</td>
+      <td>4000 KW</td>
+      <td>$ 4,910,151</td>
+      <td>TRABAJANDO</td>
+      <td>NEGOCIACIÓN</td>
+      <td>DIEGO VALDERRAMA</td>
+      <td>COMERCIO</td>
+      <td>MEDIA ALTA</td>
+    </tr>
+    <tr>
+      <td>UNIVERSIDAD CIENTIFICA DEL SUR (SEDE NORTE)</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 207,801</td>
+      <td>TRABAJANDO</td>
+      <td>COTIZACIÓN</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>GOOD YEAR</td>
+      <td>2000 KW</td>
+      <td>1500 KW</td>
+      <td>$ 1,441,035</td>
+      <td>TRABAJANDO</td>
+      <td>NEGOCIACIÓN</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>MEDIA ALTA</td>
+    </tr>
+    <tr>
+      <td>MOLINO EL TRIUNFO</td>
+      <td>2623 KW</td>
+      <td>2200 KW</td>
+      <td>$ 2,225,467</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>SGS DEL PERÚ</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>PAOLA SUCLLA</td>
+      <td>COMERCIO</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>SGS DEL PERÚ</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>PAOLA SUCLLA</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>LAIVE S.A. UHT</td>
+      <td>1436 KW</td>
+      <td>1500 KW</td>
+      <td>$ 1,353,390</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>COMPAÑÍA NACIONAL DE CHOCOLATES DEL PERU</td>
+      <td>1277 KW</td>
+      <td>1500 KW</td>
+      <td>$ 1,358,035</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>CREDITEX SAA</td>
+      <td>2034 KW</td>
+      <td>1500 KW</td>
+      <td>$ 1,506,402</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>PARQUE ARAUCO - LURIN</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>RINTI S.A</td>
+      <td>2894 KW</td>
+      <td>2500 KW</td>
+      <td>$ 2,818,274</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>TRANSFORMACIONES MULTIPLES</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>AJINOMOTO</td>
+      <td>3897 KW</td>
+      <td>4000 KW</td>
+      <td>$ 3,714,917</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>TEXTILES SAN JACINTO</td>
+      <td>4779 KW</td>
+      <td>5000 KW</td>
+      <td>$ 5,154,917</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>YMCA</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>ASENESPAR</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>FUNDICION CENTRAL SUM 778127</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>MOLINOS EL TRIUNFO</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>TRANSFORMACIONES MULTIPLES</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>MEDIFARMA - SUM 690352</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>MEDIFARMA - SUM 64089</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>LATEX Y PLASTICO SRL</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>MEDIFARMA - SUM 15254</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>FUNDICION CENTRAL SUM 1521623</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>CORPORACION PYX</td>
+      <td>152 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>COMPAÑIA ROMOSA S.A.C - SUM 2807064</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>INDUSTRIAL NUEVO MUNDO - SUM 079117</td>
+      <td>3277 KW</td>
+      <td>2200 KW</td>
+      <td>$ 2,643,357</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>COMPAÑIA ROMOSA S.A.C - SUM 2993913</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>COMPAÑIA GOODYEAR</td>
+      <td>1373 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>EDIFICIO CORPORATIVO - GLORIA</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>NICOLAS AYLLON - GLORIA</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>AMERICA MOVIL PERÚ</td>
+      <td>2252 KW</td>
+      <td>2500 KW</td>
+      <td>$ 2,866,923</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>MATRITECH</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>COMINDUSTRIAS</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>GINO REA</td>
+      <td>INDUSTRIA</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>INSTAPRIND</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>CLINICA CENTENARIO PERUANO JAPONES</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>SUPERMERCADOS PERUANOS PLAZA VEA - VES</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>RUBEN GUERRA</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>SOFTYS</td>
+      <td>0 KW</td>
+      <td>0 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>UNALM</td>
+      <td>1409 KW</td>
+      <td>1000 KW</td>
+      <td>$ 2,062,225</td>
+      <td>TRABAJANDO</td>
+      <td>COTIZACIÓN</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>MEDIA ALTA</td>
+    </tr>
+    <tr>
+      <td>COFACO - SUM 2827612</td>
+      <td>1065 KW</td>
+      <td>850 KW</td>
+      <td>$ 914,703</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>MEGAPACK GROUP</td>
+      <td>973 KW</td>
+      <td>850 KW</td>
+      <td>$ 942,369</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>HEINEKEN PERU</td>
+      <td>960 KW</td>
+      <td>850 KW</td>
+      <td>$ 942,369</td>
+      <td>TRABAJANDO</td>
+      <td>COTIZACIÓN</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>PODER PANADERO S.C</td>
+      <td>758 KW</td>
+      <td>500 KW</td>
+      <td>$ 634,283</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>FILASUR</td>
+      <td>896 KW</td>
+      <td>850 KW</td>
+      <td>$ 908,341</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>INVERSIONES NACIONALES DE TURISMO WESTIN</td>
+      <td>1328 KW</td>
+      <td>1000 KW</td>
+      <td>$ 1,230,281</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>GERALDINE VALENCIA</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>LA TORRE DEL ARTE</td>
+      <td>631 KW</td>
+      <td>500 KW</td>
+      <td>$ 616,870</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>GERALDINE VALENCIA</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>CENTRO DE DISTRIBUCIÓN TOTTUS</td>
+      <td>901 KW</td>
+      <td>1000 KW</td>
+      <td>$ 1,221,687</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>GESA - TABLADA</td>
+      <td>0 KW</td>
+      <td>500 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>JW MARRIOTT HOTEL LIMA</td>
+      <td>803 KW</td>
+      <td>500 KW</td>
+      <td>$ 697,951</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>GERALDINE VALENCIA</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>METALPREN S.A.</td>
+      <td>800 KW</td>
+      <td>1000 KW</td>
+      <td>$ 1,313,513</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>LAIVE S.A. LACTEOS</td>
+      <td>708 KW</td>
+      <td>850 KW</td>
+      <td>$ 822,191</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>HIPERMERCADOS TOTTUS S.A. HUACHIPA</td>
+      <td>901 KW</td>
+      <td>1000 KW</td>
+      <td>$ 1,366,227</td>
+      <td>TRABAJANDO</td>
+      <td>NEGOCIACIÓN</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>MEDIA ALTA</td>
+    </tr>
+    <tr>
+      <td>CLINICA INTERNACIONAL S A* SAN BORJA</td>
+      <td>515 KW</td>
+      <td>1000 KW</td>
+      <td>$ 1,311,633</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>CLINICA INTERNACIONAL S A* SURCO</td>
+      <td>314 KW</td>
+      <td>850 KW</td>
+      <td>$ 830,088</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>CASINO GOLDEN PALACE</td>
+      <td>565 KW</td>
+      <td>500 KW</td>
+      <td>$ 486,915</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>VIPLASTIC</td>
+      <td>714 KW</td>
+      <td>500 KW</td>
+      <td>$ 634,283</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>LA RAMBLA BRASIL</td>
+      <td>1250 KW</td>
+      <td>1000 KW</td>
+      <td>$ 1,166,974</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>GERALDINE VALENCIA</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>ETEX</td>
+      <td>793 KW</td>
+      <td>850 KW</td>
+      <td>$ 911,542</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>JOSUE DELGADILLO</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>ALIMENTOS CIELO S.A.C.</td>
+      <td>1440 KW</td>
+      <td>1100 KW</td>
+      <td>$ 1,093,809</td>
+      <td>TRABAJANDO</td>
+      <td>NEGOCIACIÓN</td>
+      <td>JOSUE DELGADILLO</td>
+      <td>INDUSTRIA</td>
+      <td>MEDIA ALTA</td>
+    </tr>
+    <tr>
+      <td>MAKRO SUPERMAYORISTA S.A. (SURCO)</td>
+      <td>481 KW</td>
+      <td>500 KW</td>
+      <td>$ 826,950</td>
+      <td>TRABAJANDO</td>
+      <td>NEGOCIACIÓN</td>
+      <td>RUBEN GUERRA</td>
+      <td>COMERCIO</td>
+      <td>MEDIA ALTA</td>
+    </tr>
+    <tr>
+      <td>ASOCIACION PERUANO JAPONESA (CLINICA PERUANO JAPONES)</td>
+      <td>404 KW</td>
+      <td>500 KW</td>
+      <td>$ 534,353</td>
+      <td>TRABAJANDO</td>
+      <td>COTIZACIÓN</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>MEDIA ALTA</td>
+    </tr>
+    <tr>
+      <td>PARQUE ARAUCO LA MOLINA</td>
+      <td>803 KW</td>
+      <td>850 KW</td>
+      <td>$ 874,467</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>RUBEN GUERRA</td>
+      <td>COMERCIO</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>CIMAGRAF SAC</td>
+      <td>0 KW</td>
+      <td>1000 KW</td>
+      <td>$ 399,982</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>CLUB ALIANZA LIMA</td>
+      <td>150 KW</td>
+      <td>850 KW</td>
+      <td>$ 1,006,313</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>CARLOS SPIGNO</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>DALKA</td>
+      <td>747 KW</td>
+      <td>500 KW</td>
+      <td>$ 650,804</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>INDUSTRIAL NUEVO MUNDO - SUM 2789795</td>
+      <td>1696 KW</td>
+      <td>1100 KW</td>
+      <td>$ 1,257,129</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>KURESA</td>
+      <td>652 KW</td>
+      <td>500 KW</td>
+      <td>$ 672,451</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>METROCOLOR S.A.</td>
+      <td>858 KW</td>
+      <td>850 KW</td>
+      <td>$ 910,983</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>COMPAÑIA ROMOSA S.A.C - SUM 2807481</td>
+      <td>898 KW</td>
+      <td>850 KW</td>
+      <td>$ 908,341</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>INSUMEX</td>
+      <td>922 KW</td>
+      <td>1000 KW</td>
+      <td>$ 951,224</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>JOSUE DELGADILLO</td>
+      <td>INDUSTRIA</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>COFACO - SUM 2827614</td>
+      <td>423 KW</td>
+      <td>400 KW</td>
+      <td>$ 375,516</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>INDUSTRIA NACIONAL DEL POLIESTIRENO</td>
+      <td>232 KW</td>
+      <td>250 KW</td>
+      <td>$ 222,230</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>INTERBANK</td>
+      <td>506 KW</td>
+      <td>400 KW</td>
+      <td>$ 494,688</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>CONFITECA</td>
+      <td>437 KW</td>
+      <td>400 KW</td>
+      <td>$ 388,279</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>GINO REA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>PICORP - SUM 1594865</td>
+      <td>252 KW</td>
+      <td>250 KW</td>
+      <td>$ 215,741</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>VICTOR LUPERDI</td>
+      <td>MOVILIDAD</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>COFACO - SUM 2827619</td>
+      <td>557 KW</td>
+      <td>400 KW</td>
+      <td>$ 377,047</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>REACTIVOS NACIONALES S A</td>
+      <td>616 KW</td>
+      <td>400 KW</td>
+      <td>$ 360,504</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>CORPORACIÓN BUSATEX</td>
+      <td>950 KW</td>
+      <td>400 KW</td>
+      <td>$ 346,343</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>TOLOUSE LAUTREC</td>
+      <td>0 KW</td>
+      <td>250 KW</td>
+      <td>$ 0</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>EXANDAL</td>
+      <td>377 KW</td>
+      <td>400 KW</td>
+      <td>$ 356,444</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>JOSUE DELGADILLO</td>
+      <td>INDUSTRIA</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>EMPRESA METAL MECANICA S.A.</td>
+      <td>201 KW</td>
+      <td>250 KW</td>
+      <td>$ 171,766</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>ARTESCO</td>
+      <td>170 KW</td>
+      <td>180 KW</td>
+      <td>$ 164,778</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>JOSUE DELGADILLO</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>CORPORACIÓN INDUSTRIA PLÁSTICA 38969</td>
+      <td>357 KW</td>
+      <td>400 KW</td>
+      <td>$ 360,954</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>LAIVE S A CARNICOS</td>
+      <td>417 KW</td>
+      <td>400 KW</td>
+      <td>$ 478,065</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>ALONSO BONILLA</td>
+      <td>INDUSTRIA</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>UNIVERSIDAD DEL PACIFICO (NUEVA SEDE)</td>
+      <td>237 KW</td>
+      <td>250 KW</td>
+      <td>$ 224,598</td>
+      <td>TRABAJANDO</td>
+      <td>NEGOCIACIÓN</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>ALTA</td>
+    </tr>
+    <tr>
+      <td>POLO SERVICE SAC</td>
+      <td>77 KW</td>
+      <td>100 KW</td>
+      <td>$ 182,661</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>UNAC (UNIVERSIDAD NACIONAL DEL CALLAO)</td>
+      <td>214 KW</td>
+      <td>250 KW</td>
+      <td>$ 215,423</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO VALDERRAMA</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>CERTIMIN S.A</td>
+      <td>287 KW</td>
+      <td>250 KW</td>
+      <td>$ 205,034</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>TERESA CHAVEZ</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>CAFAE</td>
+      <td>122 KW</td>
+      <td>85 KW</td>
+      <td>$ 660,954</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>ENRIQUE BERETTA</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>GESA - ULTRA</td>
+      <td>400 KW</td>
+      <td>420 KW</td>
+      <td>$ 313,213</td>
+      <td>TRABAJANDO</td>
+      <td>COTIZACIÓN</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MEDIA ALTA</td>
+    </tr>
+    <tr>
+      <td>BANCO INTERAMERICANO DE FINANZAS (BANBIF)</td>
+      <td>429 KW</td>
+      <td>400 KW</td>
+      <td>$ 313,233</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>PARQUE ARAUCO FAUCETT</td>
+      <td>376 KW</td>
+      <td>400 KW</td>
+      <td>$ 369,772</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>GIO TEXTIL S.A.C</td>
+      <td>142 KW</td>
+      <td>100 KW</td>
+      <td>$ 152,351</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>CORPORACION AFRA</td>
+      <td>196 KW</td>
+      <td>250 KW</td>
+      <td>$ 253,160</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>FRENO S.A</td>
+      <td>258 KW</td>
+      <td>250 KW</td>
+      <td>$ 215,741</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>ILENDER</td>
+      <td>207 KW</td>
+      <td>250 KW</td>
+      <td>$ 223,160</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>MUY BAJA</td>
+    </tr>
+    <tr>
+      <td>OUTLET LURIN</td>
+      <td>305 KW</td>
+      <td>250 KW</td>
+      <td>$ 305,002</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>WALTER SANDOVAL</td>
+      <td>COMERCIO</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>TEXTILES AMAZONAS</td>
+      <td>101 KW</td>
+      <td>100 KW</td>
+      <td>$ 150,846</td>
+      <td>TRABAJANDO</td>
+      <td>CONTACTO</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>CONFECCIONES LANCASTER</td>
+      <td>872 KW</td>
+      <td>100 KW</td>
+      <td>$ 934,502</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>DISEÑO DESARROLLO INDUSTRIAL</td>
+      <td>279 KW</td>
+      <td>250 KW</td>
+      <td>$ 228,833</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA</td>
+    </tr>
+    <tr>
+      <td>IN GROUP CONSULTORIAS E INVERSIONES</td>
+      <td>293 KW</td>
+      <td>400 KW</td>
+      <td>$ 385,006</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>JOSUE DELGADILLO</td>
+      <td>INDUSTRIA</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>ICPNA - SUM 94902</td>
+      <td>162 KW</td>
+      <td>100 KW</td>
+      <td>$ 195,718</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>RUBEN GUERRA</td>
+      <td>COMERCIO</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>ICPNA - SUM 478463</td>
+      <td>190 KW</td>
+      <td>100 KW</td>
+      <td>$ 195,718</td>
+      <td>TRABAJANDO</td>
+      <td>VISITA TÉCNICA</td>
+      <td>RUBEN GUERRA</td>
+      <td>COMERCIO</td>
+      <td>MEDIA</td>
+    </tr>
+    <tr>
+      <td>BADINOTTI</td>
+      <td>364 KW</td>
+      <td>400 KW</td>
+      <td>$ 385,006</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+    <tr>
+      <td>PAPELERA ZARATE</td>
+      <td>522 KW</td>
+      <td>400 KW</td>
+      <td>$ 375,516</td>
+      <td>TRABAJANDO</td>
+      <td>PREFACTIBILIDAD</td>
+      <td>DIEGO ABREGÚ</td>
+      <td>MICROGENERACIÓN</td>
+      <td>BAJA MEDIA</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+
+
+    <!-- ===============================================================
+         JQUERY
+         =============================================================== -->
+
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js">
+    </script>
+
+
+    <!-- ===============================================================
+         DATATABLES
+         =============================================================== -->
+
+    <script
+        src="https://cdn.datatables.net/2.3.3/js/dataTables.min.js">
+    </script>
+
+
+    <!-- ===============================================================
+         CONFIGURACIÓN DE DATATABLES
+         =============================================================== -->
+
+    <script>
+
+        $(document).ready(function() {
+
+            $('#tabla_proyectos').DataTable({
+
+                language: {
+
+                    decimal: ",",
+
+                    thousands: ".",
+
+                    processing: "Procesando...",
+
+                    search: "Buscar:",
+
+                    lengthMenu: "Mostrar _MENU_ registros",
+
+                    info:
+                        "Mostrando _START_ a _END_ de _TOTAL_ registros",
+
+                    infoEmpty:
+                        "Mostrando 0 a 0 de 0 registros",
+
+                    infoFiltered:
+                        "(filtrado de _MAX_ registros totales)",
+
+                    loadingRecords:
+                        "Cargando...",
+
+                    zeroRecords:
+                        "No se encontraron registros",
+
+                    emptyTable:
+                        "No hay datos disponibles",
+
+                    paginate: {
+
+                        first: "Primero",
+
+                        previous: "Anterior",
+
+                        next: "Siguiente",
+
+                        last: "Último"
+
+                    }
+
+                },
+
+                pageLength: 25,
+
+                lengthMenu: [
+
+                    [10, 25, 50, 100, -1],
+
+                    [10, 25, 50, 100, "Todos"]
+
+                ],
+
+                scrollX: true,
+
+                order: [],
+
+                autoWidth: false
+
+            });
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>
